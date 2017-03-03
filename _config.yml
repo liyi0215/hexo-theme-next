@@ -28,7 +28,7 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -39,10 +39,10 @@ menu:
   home: /
   archives: /archives
   tags: /tags
-  #sitemap: /sitemap.xml
-  #commonweal: /404.html
-#  categories: /categories
-#  schedule: /schedule
+  # sitemap: /sitemap.xml
+  # commonweal: /404.html
+  # categories: /categories
+  # schedule: /schedule
   about: /about
 
 
@@ -386,15 +386,15 @@ vkontakte_api:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: d6Ug6q2sPlDSD8W2TFGuQprd-gzGzoHsz
+  app_key: rGly0li0xy7IYL4Fl7QygUtV
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: true
+  enable: false
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
@@ -409,7 +409,7 @@ busuanzi_count:
   page_pv_footer:
 
 # Tencent analytics ID
-# tencent_analytics:
+tencent_analytics: 60988354
 
 # Tencent MTA ID
 # tencent_mta:
@@ -448,7 +448,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
 
 # External URL with BASE64 encrypt & decrypt
 # Usage: {% exturl text url "title" %}

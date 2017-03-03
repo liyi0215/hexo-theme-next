@@ -8,7 +8,7 @@
     {% set post_class = post_class + ' ' + 'post-sticky' %}
   {% endif %}
 
-  <article class="{{ post_class }}" itemscope itemtype="http://schema.org/Article">
+  <article class="{{ post_class }}" itemscope itemtype="http://schema.org/Article" style="background:#fff">
     <link itemprop="mainEntityOfPage" href="{{ config.url }}{{ url_for(post.path) }}">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -47,6 +47,9 @@
                   </span>
                 {% endif %}
                 <a class="post-title-link" href="{{ url_for(post.path) }}" itemprop="url">
+                    {% if post.top %}
+                      <sup><i class="fa fa-thumb-tack" style="color:#679267;font-size:20px"></i></sup>
+                    {% endif %}
                   {{ post.title | default(__('post.untitled'))}}
                 </a>
               {% else %}
