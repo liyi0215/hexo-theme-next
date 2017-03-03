@@ -296,7 +296,7 @@ mathjax:
 #swiftype_key: 5zwe7Q4T-RFVqUBMVnjx
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 4cb0f5e96158a9577c1fa79c7a1ac6e0
 
 # Duoshuo ShortName
 duoshuo_shortname: mrliyi
@@ -368,7 +368,7 @@ facebook_sdk:
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
 facebook_comments_plugin:
-  enable: false
+  enable: true
   num_of_posts: 10  # min posts num is 1
   width: 100%       # default width is 550px
   scheme: light     # default scheme is light (light or dark)
