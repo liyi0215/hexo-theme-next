@@ -4,8 +4,8 @@
   bottom: $b2t-position-bottom;
   right: $b2t-position-right;
   z-index: $zindex-5;
-  padding: 0 6px;
-  width: hexo-config('sidebar.scrollpercent') ? initial : 24px;
+  padding: 1px 6px;
+  width: hexo-config('sidebar.scrollpercent') ? initial : 26px;
   background: $b2t-bg-color;
   font-size: $b2t-font-size;
   opacity: $b2t-opacity;
@@ -25,5 +25,29 @@
 
   &.back-to-top-on {
     bottom: $b2t-position-bottom-on;
+  }
+
+  &.pdresume {
+    bottom: 56px;
+    padding: 0;
+    background: transparent;
+
+    .resume {
+      display: inline-block;
+      border: 1px solid transparent;
+      transition: 1s;
+      font-size: 14px;
+      line-height: 18px;
+      padding: 8px 2px;
+      margin-bottom: 1px;
+      background: #222;
+      color: white;
+
+      &:hover {
+        color: #048604;
+        border: 1px solid #048604;
+        background: white;
+      }
+    }
   }
 }
