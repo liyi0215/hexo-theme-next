@@ -299,7 +299,7 @@ mathjax:
 baidu_analytics: 4cb0f5e96158a9577c1fa79c7a1ac6e0
 
 # Duoshuo ShortName
-duoshuo_shortname: mrliyi
+duoshuo_shortname: iwlog
 
 # Disqus
 #disqus_shortname:
@@ -386,7 +386,7 @@ vkontakte_api:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: true
+  enable: false
   app_id: d6Ug6q2sPlDSD8W2TFGuQprd-gzGzoHsz
   app_key: rGly0li0xy7IYL4Fl7QygUtV
 
