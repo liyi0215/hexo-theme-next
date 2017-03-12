@@ -74,7 +74,7 @@ menu_icons:
 #scheme: Muse # 默认 Scheme，这是 NexT 最初的版本，黑白主调，大量留白
 #scheme: Mist # Mist - Muse 的紧凑版本，整洁有序的单栏外观
 #scheme: Pisces # Pisces - 双栏 Scheme，小家碧玉似的清新
-scheme: Pisces
+scheme: Mist
 
 
 # ---------------------------------------------------------------
@@ -296,7 +296,7 @@ mathjax:
 #swiftype_key: 5zwe7Q4T-RFVqUBMVnjx
 
 # Baidu Analytics ID
-baidu_analytics: 4cb0f5e96158a9577c1fa79c7a1ac6e0
+baidu_analytics: c5b7b6fa558fbf9e97cc06cbb13b2e93
 
 # Duoshuo ShortName
 duoshuo_shortname: iwlog
@@ -339,7 +339,7 @@ add_this_id: 2071304
 
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-93467015-1
 
 # CNZZ count
 #cnzz_siteid: 1260651675
@@ -409,7 +409,7 @@ busuanzi_count:
   page_pv_footer:
 
 # Tencent analytics ID
-tencent_analytics: 60988354
+tencent_analytics: 61122565
 
 # Tencent MTA ID
 # tencent_mta:

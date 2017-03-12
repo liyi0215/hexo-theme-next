@@ -1,8 +1,15 @@
 // Header
 // --------------------------------------------------
-.header { background: $whitesmoke; }
+.header { 
+  background: $whitesmoke; 
+  box-shadow: 0 3px 10px lightgrey;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: $zindex-3;
+}
 .header-inner {
-  padding: 25px 0 20px;
+  padding: 8px 0;
   clearfix();
 
   +mobile() {
