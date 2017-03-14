@@ -48,7 +48,7 @@
                 {% endif %}
                 <a class="post-title-link" href="{{ url_for(post.path) }}" itemprop="url">
                     {% if post.top %}
-                      <sup><i class="fa fa-thumb-tack" style="color:#679267;font-size:20px"></i></sup>
+                        <span style="color:lightgray">[置顶]</span>
                     {% endif %}
                   {{ post.title | default(__('post.untitled'))}}
                 </a>
