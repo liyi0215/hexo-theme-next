@@ -20,7 +20,7 @@ $(document).ready(function () {
       })
       .on('clear.bs.scrollspy', removeCurrentActiveClass);
 
-    $('body').scrollspy({ target: tocSelector });
+    $('body').scrollspy({ target: tocSelector, offset: 70 });
 
     function removeCurrentActiveClass () {
       $(tocSelector + ' ' + activeCurrentSelector)
