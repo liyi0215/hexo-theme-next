@@ -299,7 +299,7 @@ mathjax:
 baidu_analytics: c5b7b6fa558fbf9e97cc06cbb13b2e93
 
 # Duoshuo ShortName
-duoshuo_shortname: iwlog
+# duoshuo_shortname: iwlog
 
 # Disqus
 #disqus_shortname:
@@ -308,7 +308,7 @@ duoshuo_shortname: iwlog
 #hypercomments_id:
 
 # Gentie productKey
-#gentie_productKey:
+gentie_productKey: 60c262398afe477d93277272b295bd26
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
