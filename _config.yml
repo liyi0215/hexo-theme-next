@@ -43,6 +43,7 @@ menu:
   # commonweal: /404.html
   # categories: /categories
   # schedule: /schedule
+  demo: /categories/Demo
   about: /about
 
 
@@ -62,6 +63,7 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
+  demo: binoculars
 
 
 
