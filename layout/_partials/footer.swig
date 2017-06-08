@@ -6,6 +6,9 @@
     <i class="fa fa-{{ theme.authoricon }}"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
+  {% if theme.hostByCodingPage and is_home() %}
+    <p style="display:inline;float:right">Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
+  {% endif %}
 </div>
 
 {% if theme.copyright %}
@@ -19,4 +22,5 @@
     NexT.{{ theme.scheme }}
   </a>
 </div>
+
 {% endif %}
